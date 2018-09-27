@@ -14,7 +14,7 @@ echo "Install developer tools..."
 sudo apt-get --yes --force-yes install build-essential git cmake pkg-config
 
 echo "Install image I/O packages..."
-sudo apt-get --yes --force-yes install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+sudo apt-get --yes --force-yes install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
 
 echo "Install video I/O packages..."
 sudo apt-get --yes --force-yes install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
@@ -27,6 +27,7 @@ echo "Install optimize dependencies..."
 sudo apt-get --yes --force-yes install libatlas-base-dev gfortran
 
 echo "Install Python..."
+sudo apt-get --yes --force-yes install python python3
 sudo apt-get --yes --force-yes install python2.7-dev python2-numpy
 sudo apt-get --yes --force-yes install python3-dev python3-numpy
 
@@ -45,15 +46,19 @@ echo "Install OpenCV..."
 cd ~/opencv-3.0.0/
 mkdir build
 cd build
+echo "cmake..."
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
+	-D ENABLE_PRECOMILED_HEADERS=OFF \
 	-D CMAKE_INSTALL_PREFIX=/usr/local \
 	-D INSTALL_C_EXAMPLES=OFF \
 	-D INSTALL_PYTHON_EXAMPLES=OFF \
 	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.0.0/modules \
-	-D BUILD_EXAMPLES=ON ..
-
+	-D BUILD_EXAMPLES=OFF ..
+echo "make..."
 make -j4
+echo "make install..."
 sudo make install
+echo "ldconfig..."
 sudo ldconfig
 
 echo "Install successfully..."

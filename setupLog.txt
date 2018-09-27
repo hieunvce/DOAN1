@@ -92,10 +92,6 @@ Install image I/O packages...
 Reading package lists...
 Building dependency tree...
 Reading state information...
-Package libpng12-dev is not available, but is referred to by another package.
-This may mean that the package is missing, has been obsoleted, or
-is only available from another source
-
 Install video I/O packages...
 Reading package lists...
 Building dependency tree...
@@ -128,6 +124,12 @@ Install Python...
 Reading package lists...
 Building dependency tree...
 Reading state information...
+python is already the newest version (2.7.13-2).
+python3 is already the newest version (3.5.3-1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
 Reading package lists...
 Building dependency tree...
 Reading state information...
@@ -137,260 +139,15 @@ python3-dev is already the newest version (3.5.3-1).
 Download OpenCV...
 Setup Python...
 Install OpenCV...
--- The CXX compiler identification is GNU 6.3.0
--- The C compiler identification is GNU 6.3.0
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+cmake...
 -- Detected version of GNU GCC: 63 (603)
--- Performing Test HAVE_CXX_FSIGNED_CHAR
--- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
--- Performing Test HAVE_C_FSIGNED_CHAR
--- Performing Test HAVE_C_FSIGNED_CHAR - Success
--- Performing Test HAVE_CXX_W
--- Performing Test HAVE_CXX_W - Success
--- Performing Test HAVE_C_W
--- Performing Test HAVE_C_W - Success
--- Performing Test HAVE_CXX_WALL
--- Performing Test HAVE_CXX_WALL - Success
--- Performing Test HAVE_C_WALL
--- Performing Test HAVE_C_WALL - Success
--- Performing Test HAVE_CXX_WERROR_RETURN_TYPE
--- Performing Test HAVE_CXX_WERROR_RETURN_TYPE - Success
--- Performing Test HAVE_C_WERROR_RETURN_TYPE
--- Performing Test HAVE_C_WERROR_RETURN_TYPE - Success
--- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR
--- Performing Test HAVE_CXX_WERROR_NON_VIRTUAL_DTOR - Success
--- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR
--- Performing Test HAVE_C_WERROR_NON_VIRTUAL_DTOR - Success
--- Performing Test HAVE_CXX_WERROR_ADDRESS
--- Performing Test HAVE_CXX_WERROR_ADDRESS - Success
--- Performing Test HAVE_C_WERROR_ADDRESS
--- Performing Test HAVE_C_WERROR_ADDRESS - Success
--- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT
--- Performing Test HAVE_CXX_WERROR_SEQUENCE_POINT - Success
--- Performing Test HAVE_C_WERROR_SEQUENCE_POINT
--- Performing Test HAVE_C_WERROR_SEQUENCE_POINT - Success
--- Performing Test HAVE_CXX_WFORMAT
--- Performing Test HAVE_CXX_WFORMAT - Success
--- Performing Test HAVE_C_WFORMAT
--- Performing Test HAVE_C_WFORMAT - Success
--- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY
--- Performing Test HAVE_CXX_WERROR_FORMAT_SECURITY - Success
--- Performing Test HAVE_C_WERROR_FORMAT_SECURITY
--- Performing Test HAVE_C_WERROR_FORMAT_SECURITY - Success
--- Performing Test HAVE_CXX_WMISSING_DECLARATIONS
--- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success
--- Performing Test HAVE_C_WMISSING_DECLARATIONS
--- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success
--- Performing Test HAVE_CXX_WMISSING_PROTOTYPES
--- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Failed
--- Performing Test HAVE_C_WMISSING_PROTOTYPES
--- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success
--- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES
--- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Failed
--- Performing Test HAVE_C_WSTRICT_PROTOTYPES
--- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success
--- Performing Test HAVE_CXX_WUNDEF
--- Performing Test HAVE_CXX_WUNDEF - Success
--- Performing Test HAVE_C_WUNDEF
--- Performing Test HAVE_C_WUNDEF - Success
--- Performing Test HAVE_CXX_WINIT_SELF
--- Performing Test HAVE_CXX_WINIT_SELF - Success
--- Performing Test HAVE_C_WINIT_SELF
--- Performing Test HAVE_C_WINIT_SELF - Success
--- Performing Test HAVE_CXX_WPOINTER_ARITH
--- Performing Test HAVE_CXX_WPOINTER_ARITH - Success
--- Performing Test HAVE_C_WPOINTER_ARITH
--- Performing Test HAVE_C_WPOINTER_ARITH - Success
--- Performing Test HAVE_CXX_WSHADOW
--- Performing Test HAVE_CXX_WSHADOW - Success
--- Performing Test HAVE_C_WSHADOW
--- Performing Test HAVE_C_WSHADOW - Success
--- Performing Test HAVE_CXX_WSIGN_PROMO
--- Performing Test HAVE_CXX_WSIGN_PROMO - Success
--- Performing Test HAVE_C_WSIGN_PROMO
--- Performing Test HAVE_C_WSIGN_PROMO - Failed
--- Performing Test HAVE_CXX_WNO_NARROWING
--- Performing Test HAVE_CXX_WNO_NARROWING - Success
--- Performing Test HAVE_C_WNO_NARROWING
--- Performing Test HAVE_C_WNO_NARROWING - Success
--- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR
--- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success
--- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR
--- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Failed
--- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
--- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
--- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
--- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
--- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION
--- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success
--- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION
--- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success
--- Performing Test HAVE_CXX_WNO_LONG_LONG
--- Performing Test HAVE_CXX_WNO_LONG_LONG - Success
--- Performing Test HAVE_C_WNO_LONG_LONG
--- Performing Test HAVE_C_WNO_LONG_LONG - Success
--- Performing Test HAVE_CXX_PTHREAD
--- Performing Test HAVE_CXX_PTHREAD - Success
--- Performing Test HAVE_C_PTHREAD
--- Performing Test HAVE_C_PTHREAD - Success
--- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER
--- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER - Success
--- Performing Test HAVE_C_FOMIT_FRAME_POINTER
--- Performing Test HAVE_C_FOMIT_FRAME_POINTER - Success
--- Performing Test HAVE_CXX_MSSE
--- Performing Test HAVE_CXX_MSSE - Success
--- Performing Test HAVE_C_MSSE
--- Performing Test HAVE_C_MSSE - Success
--- Performing Test HAVE_CXX_MSSE2
--- Performing Test HAVE_CXX_MSSE2 - Success
--- Performing Test HAVE_C_MSSE2
--- Performing Test HAVE_C_MSSE2 - Success
--- Performing Test HAVE_CXX_MNO_AVX
--- Performing Test HAVE_CXX_MNO_AVX - Success
--- Performing Test HAVE_C_MNO_AVX
--- Performing Test HAVE_C_MNO_AVX - Success
--- Performing Test HAVE_CXX_MSSE3
--- Performing Test HAVE_CXX_MSSE3 - Success
--- Performing Test HAVE_C_MSSE3
--- Performing Test HAVE_C_MSSE3 - Success
--- Performing Test HAVE_CXX_MNO_SSSE3
--- Performing Test HAVE_CXX_MNO_SSSE3 - Success
--- Performing Test HAVE_C_MNO_SSSE3
--- Performing Test HAVE_C_MNO_SSSE3 - Success
--- Performing Test HAVE_CXX_MNO_SSE4_1
--- Performing Test HAVE_CXX_MNO_SSE4_1 - Success
--- Performing Test HAVE_C_MNO_SSE4_1
--- Performing Test HAVE_C_MNO_SSE4_1 - Success
--- Performing Test HAVE_CXX_MNO_SSE4_2
--- Performing Test HAVE_CXX_MNO_SSE4_2 - Success
--- Performing Test HAVE_C_MNO_SSE4_2
--- Performing Test HAVE_C_MNO_SSE4_2 - Success
--- Performing Test HAVE_CXX_FFUNCTION_SECTIONS
--- Performing Test HAVE_CXX_FFUNCTION_SECTIONS - Success
--- Performing Test HAVE_C_FFUNCTION_SECTIONS
--- Performing Test HAVE_C_FFUNCTION_SECTIONS - Success
--- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
--- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
--- Performing Test HAVE_C_FVISIBILITY_HIDDEN
--- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
--- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN
--- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success
--- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN
--- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Failed
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Check if the system is big endian
--- Searching 16 bit integer
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stdint.h
--- Looking for stdint.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of unsigned short
--- Check size of unsigned short - done
--- Using unsigned short
--- Check if the system is big endian - little endian
 -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found suitable version "1.2.8", minimum required is "1.2.3") 
 -- Could NOT find TIFF (missing:  TIFF_LIBRARY TIFF_INCLUDE_DIR) 
--- Looking for assert.h
--- Looking for assert.h - found
--- Looking for fcntl.h
--- Looking for fcntl.h - found
--- Looking for io.h
--- Looking for io.h - not found
--- Looking for jbg_newlen
--- Looking for jbg_newlen - not found
--- Looking for mmap
--- Looking for mmap - found
--- Looking for search.h
--- Looking for search.h - found
--- Looking for string.h
--- Looking for string.h - found
--- Looking for unistd.h
--- Looking for unistd.h - found
--- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE
--- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE - Success
--- Performing Test HAVE_C_WNO_MISSING_PROTOTYPES
--- Performing Test HAVE_C_WNO_MISSING_PROTOTYPES - Success
--- Performing Test HAVE_C_WNO_MISSING_DECLARATIONS
--- Performing Test HAVE_C_WNO_MISSING_DECLARATIONS - Success
--- Performing Test HAVE_C_WNO_UNDEF
--- Performing Test HAVE_C_WNO_UNDEF - Success
--- Performing Test HAVE_C_WNO_UNUSED
--- Performing Test HAVE_C_WNO_UNUSED - Success
--- Performing Test HAVE_C_WNO_SIGN_COMPARE
--- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
--- Performing Test HAVE_C_WNO_CAST_ALIGN
--- Performing Test HAVE_C_WNO_CAST_ALIGN - Success
--- Performing Test HAVE_C_WNO_SHADOW
--- Performing Test HAVE_C_WNO_SHADOW - Success
--- Performing Test HAVE_C_WNO_MAYBE_UNINITIALIZED
--- Performing Test HAVE_C_WNO_MAYBE_UNINITIALIZED - Success
--- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST
--- Performing Test HAVE_C_WNO_POINTER_TO_INT_CAST - Success
--- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST
--- Performing Test HAVE_C_WNO_INT_TO_POINTER_CAST - Success
--- Performing Test HAVE_C_WNO_UNUSED_PARAMETER
--- Performing Test HAVE_C_WNO_UNUSED_PARAMETER - Success
--- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS
--- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS - Success
--- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
--- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
 -- Could NOT find JPEG (missing:  JPEG_LIBRARY JPEG_INCLUDE_DIR) 
--- Performing Test HAVE_C_WNO_UNUSED_VARIABLE
--- Performing Test HAVE_C_WNO_UNUSED_VARIABLE - Success
--- Found JPEG: libjpeg  
 -- Could NOT find Jasper (missing:  JASPER_LIBRARIES JASPER_INCLUDE_DIR) 
--- Performing Test HAVE_C_WNO_IMPLICIT_FUNCTION_DECLARATION
--- Performing Test HAVE_C_WNO_IMPLICIT_FUNCTION_DECLARATION - Success
--- Performing Test HAVE_C_WNO_UNINITIALIZED
--- Performing Test HAVE_C_WNO_UNINITIALIZED - Success
--- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_PARAMETER
--- Performing Test HAVE_C_WNO_UNUSED_BUT_SET_PARAMETER - Success
--- Performing Test HAVE_C_WNO_STRICT_OVERFLOW
--- Performing Test HAVE_C_WNO_STRICT_OVERFLOW - Success
 -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
--- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.28") 
--- Looking for /usr/include/libpng/png.h
--- Looking for /usr/include/libpng/png.h - found
--- Looking for semaphore.h
--- Looking for semaphore.h - found
--- Performing Test HAVE_CXX_WNO_SHADOW
--- Performing Test HAVE_CXX_WNO_SHADOW - Success
--- Performing Test HAVE_CXX_WNO_UNUSED
--- Performing Test HAVE_CXX_WNO_UNUSED - Success
--- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
--- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
--- Performing Test HAVE_CXX_WNO_UNDEF
--- Performing Test HAVE_CXX_WNO_UNDEF - Success
--- Performing Test HAVE_CXX_WNO_UNINITIALIZED
--- Performing Test HAVE_CXX_WNO_UNINITIALIZED - Success
--- Performing Test HAVE_CXX_WNO_SWITCH
--- Performing Test HAVE_CXX_WNO_SWITCH - Success
--- Performing Test HAVE_CXX_WNO_PARENTHESES
--- Performing Test HAVE_CXX_WNO_PARENTHESES - Success
--- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS
--- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success
--- Performing Test HAVE_CXX_WNO_EXTRA
--- Performing Test HAVE_CXX_WNO_EXTRA - Success
 -- Checking for module 'gtk+-3.0'
 --   No package 'gtk+-3.0' found
--- Checking for module 'gtk+-2.0'
---   Found gtk+-2.0, version 2.24.31
--- Checking for module 'gthread-2.0'
---   Found gthread-2.0, version 2.50.3
 -- Checking for module 'gstreamer-base-1.0'
 --   No package 'gstreamer-base-1.0' found
 -- Checking for module 'gstreamer-video-1.0'
@@ -415,24 +172,12 @@ Install OpenCV...
 --   No package 'libdc1394-2' found
 -- Checking for module 'libdc1394'
 --   No package 'libdc1394' found
--- Checking for module 'libv4l1'
---   Found libv4l1, version 1.12.3
--- Checking for module 'libv4l2'
---   Found libv4l2, version 1.12.3
 -- Looking for linux/videodev.h
--- Looking for linux/videodev.h - not found
+-- Looking for linux/videodev.h - found
 -- Looking for linux/videodev2.h
 -- Looking for linux/videodev2.h - found
 -- Looking for sys/videoio.h
 -- Looking for sys/videoio.h - not found
--- Checking for module 'libavcodec'
---   Found libavcodec, version 57.64.101
--- Checking for module 'libavformat'
---   Found libavformat, version 57.56.101
--- Checking for module 'libavutil'
---   Found libavutil, version 55.34.101
--- Checking for module 'libswscale'
---   Found libswscale, version 4.2.100
 -- Checking for module 'libavresample'
 --   No package 'libavresample' found
 -- Looking for libavformat/avformat.h
@@ -441,9 +186,6 @@ Install OpenCV...
 -- Looking for ffmpeg/avformat.h - not found
 -- Checking for module 'libgphoto2'
 --   No package 'libgphoto2' found
--- ICV: Downloading ippicv_linux_20141027.tgz...
--- ICV: Unpacking ippicv_linux_20141027.tgz to /root/opencv-3.0.0/3rdparty/ippicv/unpack...
--- ICV: Package successfully downloaded
 -- found IPP (ICV version): 8.2.1 [8.2.1]
 -- at: /root/opencv-3.0.0/3rdparty/ippicv/unpack/ippicv_lnx
 -- Could NOT find Doxygen (missing:  DOXYGEN_EXECUTABLE) 
@@ -451,12 +193,10 @@ Install OpenCV...
 -- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.13", minimum required is "2.7") 
 -- Could NOT find PythonLibs (missing:  PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is exact version "2.7.13")
 -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.3", minimum required is "3.4") 
--- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.5m.so (found suitable exact version "3.5.3") 
+-- Could NOT find PythonLibs (missing:  PYTHON_INCLUDE_DIRS) (Required is exact version "3.5.3")
 -- Could NOT find JNI (missing:  JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
 -- Could NOT find Matlab (missing:  MATLAB_MEX_SCRIPT MATLAB_INCLUDE_DIRS MATLAB_ROOT_DIR MATLAB_LIBRARIES MATLAB_LIBRARY_DIRS MATLAB_MEXEXT MATLAB_ARCH MATLAB_BIN) 
 -- VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
--- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
--- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
 --   videoio: Removing WinRT API headers by default
 -- 
 -- General configuration for OpenCV 3.0.0 =====================================
@@ -484,10 +224,10 @@ Install OpenCV...
 --     3rdparty dependencies:       libjpeg libwebp libtiff libjasper IlmImf ippicv
 -- 
 --   OpenCV modules:
---     To be built:                 hal core flann imgproc ml photo video imgcodecs shape videoio highgui objdetect superres ts features2d calib3d stitching videostab python3
+--     To be built:                 hal core flann imgproc ml photo video imgcodecs shape videoio highgui objdetect superres ts features2d calib3d stitching videostab
 --     Disabled:                    world
 --     Disabled by dependency:      -
---     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java python2 viz
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java python2 python3 viz
 -- 
 --   GUI: 
 --     QT:                          NO
@@ -556,7 +296,7 @@ Install OpenCV...
 -- 
 --   Python 3:
 --     Interpreter:                 /usr/bin/python3 (ver 3.5.3)
---     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.5m.so (ver 3.5.3)
+--     Libraries:                   NO
 --     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.12.1)
 --     packages path:               lib/python3.5/dist-packages
 -- 
@@ -578,7 +318,7 @@ Install OpenCV...
 --   Tests and samples:
 --     Tests:                       YES
 --     Performance tests:           YES
---     C/C++ Examples:              YES
+--     C/C++ Examples:              NO
 -- 
 --   Install path:                  /usr/local
 -- 
@@ -588,541 +328,208 @@ Install OpenCV...
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /root/opencv-3.0.0/build
-Scanning dependencies of target libjpeg
-[  0%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jaricom.c.o
-Scanning dependencies of target libtiff
-Scanning dependencies of target libjasper
-[  0%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_aux.c.o
-[  0%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_cm.c.o
-Scanning dependencies of target libwebp
-[  0%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcapimin.c.o
-[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/alpha.c.o
-[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/buffer.c.o
-[  1%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcapistd.c.o
-[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/frame.c.o
-[  1%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcarith.c.o
-[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_close.c.o
-[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_codec.c.o
-[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_color.c.o
-[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/idec.c.o
-[  1%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_debug.c.o
-[  1%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jccoefct.c.o
-[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_compress.c.o
-[  1%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_getopt.c.o
-[  1%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_icc.c.o
-[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/io.c.o
-[  1%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dir.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jccolor.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/layer.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jchuff.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/quant.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/tree.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/vp8.c.o
-[  2%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirinfo.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcinit.c.o
-[  2%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirread.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcmainct.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/vp8l.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcmarker.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcmaster.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcomapi.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcparam.c.o
-[  2%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_iccdata.c.o
-[  2%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_image.c.o
-[  2%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dec/webp.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcprepct.c.o
-[  2%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcsample.c.o
-[  3%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dirwrite.c.o
-[  3%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jctrans.c.o
-[  3%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/cpu.c.o
-[  3%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_init.c.o
-[  3%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/dec.c.o
-[  3%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_malloc.c.o
-[  3%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdapimin.c.o
-[  3%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_seq.c.o
-[  3%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdapistd.c.o
-[  3%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdarith.c.o
-[  4%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_stream.c.o
-[  4%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdatadst.c.o
-[  6%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdatasrc.c.o
-[  6%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdcoefct.c.o
-[  6%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/dec_neon.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_string.c.o
-[  6%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/dec_sse2.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_tmr.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_tvp.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jas_version.c.o
-[  6%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdcolor.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jp2_cod.c.o
-[  6%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_dumpmode.c.o
-[  6%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jddctmgr.c.o
-[  6%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_error.c.o
-[  6%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_extension.c.o
-[  6%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/enc.c.o
-[  6%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3.c.o
-[  6%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdhuff.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jp2_dec.c.o
-[  6%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jp2_enc.c.o
-[  6%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/enc_neon.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/enc_sse2.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdinput.c.o
-[  7%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_bs.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdmainct.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/lossless.c.o
-[  7%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_cs.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdmarker.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_fax3sm.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_flush.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_getimage.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdmaster.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdmerge.c.o
-[  7%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_dec.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/upsampling.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdpostct.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdsample.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jdtrans.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jerror.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jfdctflt.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jfdctfst.c.o
-[  7%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jfdctint.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/upsampling_neon.c.o
-[  7%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_enc.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/upsampling_sse2.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jbig.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jpeg_12.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_jpeg.c.o
-[  7%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_luv.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/dsp/yuv.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/alpha.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/analysis.c.o
-[  7%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/backward_references.c.o
-[  8%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jidctflt.c.o
-[  8%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_lzma.c.o
-[  8%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_lzw.c.o
-[  8%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jidctfst.c.o
-[  8%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_math.c.o
-[  8%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_mct.c.o
-[  8%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jidctint.c.o
-[  8%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_next.c.o
-[  8%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_mqcod.c.o
-[  8%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_mqdec.c.o
-[  8%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_ojpeg.c.o
-[  8%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/config.c.o
-[  9%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_open.c.o
-[  9%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/cost.c.o
-[ 11%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_mqenc.c.o
-[ 11%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/filter.c.o
-[ 11%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_packbits.c.o
-[ 11%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_pixarlog.c.o
-[ 11%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_qmfb.c.o
-[ 11%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/frame.c.o
-[ 11%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jmemansi.c.o
-[ 11%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_predict.c.o
-[ 11%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/histogram.c.o
-[ 11%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jmemmgr.c.o
-[ 11%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jquant1.c.o
-[ 11%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_print.c.o
-[ 11%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/iterator.c.o
-[ 11%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jquant2.c.o
-[ 11%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_read.c.o
-[ 11%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t1cod.c.o
-[ 11%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/layer.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/picture.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t1dec.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_strip.c.o
-[ 12%] Building C object 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jutils.c.o
-[ 12%] Linking C static library ../lib/liblibjpeg.a
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_swab.c.o
-[ 12%] Built target libjpeg
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_thunder.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_tile.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_version.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_warning.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_write.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t1enc.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/quant.c.o
-[ 12%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_zip.c.o
-[ 12%] Building CXX object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_stream.cxx.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/syntax.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t2cod.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/token.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/tree.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t2dec.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/vp8l.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_t2enc.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_tagtree.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/enc/webpenc.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_tsfb.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/mux/muxedit.c.o
-[ 12%] Building C object 3rdparty/libjasper/CMakeFiles/libjasper.dir/jpc_util.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/mux/muxinternal.c.o
-[ 12%] Linking C static library ../lib/liblibjasper.a
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/mux/muxread.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/bit_reader.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/bit_writer.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/color_cache.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/filters.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/huffman.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/huffman_encode.c.o
-[ 12%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/quant_levels.c.o
-[ 13%] Built target libjasper
-[ 13%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/quant_levels_dec.c.o
-[ 13%] Generating opencv_hal_pch_dephelp.cxx
-[ 13%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/rescaler.c.o
-[ 13%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/thread.c.o
-[ 13%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/utils/utils.c.o
-[ 13%] Linking C static library ../lib/liblibwebp.a
-[ 13%] Built target libwebp
-[ 13%] Generating opencv_core_pch_dephelp.cxx
-[ 13%] Building C object 3rdparty/libtiff/CMakeFiles/libtiff.dir/tif_unix.c.o
-Scanning dependencies of target opencv_hal_pch_dephelp
-[ 13%] Building CXX object modules/hal/CMakeFiles/opencv_hal_pch_dephelp.dir/opencv_hal_pch_dephelp.cxx.o
-[ 13%] Linking CXX static library ../lib/liblibtiff.a
+make...
+[  3%] Built target libtiff
+[  7%] Built target libjpeg
+[ 11%] Built target libjasper
+[ 17%] Built target libwebp
+[ 17%] Built target opencv_hal_pch_dephelp
 Scanning dependencies of target opencv_core_pch_dephelp
-[ 13%] Building CXX object modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.o
-Scanning dependencies of target IlmImf
-[ 13%] Built target libtiff
-[ 13%] Generating opencv_test_core_pch_dephelp.cxx
-[ 13%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Half/half.cpp.o
-[ 13%] Linking CXX static library ../../lib/libopencv_hal_pch_dephelp.a
-[ 13%] Built target opencv_hal_pch_dephelp
-[ 13%] Generating opencv_perf_core_pch_dephelp.cxx
 Scanning dependencies of target opencv_test_core_pch_dephelp
-[ 13%] Building CXX object modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.o
+[ 17%] Building CXX object modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.o
+[ 17%] Building CXX object modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.o
 Scanning dependencies of target opencv_perf_core_pch_dephelp
-[ 13%] Building CXX object modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.o
-[ 13%] Linking CXX static library ../../lib/libopencv_core_pch_dephelp.a
-[ 13%] Built target opencv_core_pch_dephelp
-[ 13%] Generating opencv_imgcodecs_pch_dephelp.cxx
-[ 13%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Iex/IexBaseExc.cpp.o
-Scanning dependencies of target opencv_imgcodecs_pch_dephelp
-[ 14%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Iex/IexThrowErrnoExc.cpp.o
-[ 14%] Linking CXX static library ../../lib/libopencv_imgcodecs_pch_dephelp.a
-[ 14%] Built target opencv_imgcodecs_pch_dephelp
-[ 14%] Generating opencv_imgproc_pch_dephelp.cxx
-Scanning dependencies of target opencv_imgproc_pch_dephelp
-[ 14%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc_pch_dephelp.dir/opencv_imgproc_pch_dephelp.cxx.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThread.cpp.o
-[ 14%] Linking CXX static library ../../lib/libopencv_perf_core_pch_dephelp.a
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadMutex.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadMutexPosix.cpp.o
-[ 14%] Built target opencv_perf_core_pch_dephelp
-[ 14%] Generating opencv_highgui_pch_dephelp.cxx
-[ 14%] Linking CXX static library ../../lib/libopencv_test_core_pch_dephelp.a
-[ 14%] Built target opencv_test_core_pch_dephelp
-[ 14%] Generating opencv_videoio_pch_dephelp.cxx
-[ 14%] Linking CXX static library ../../lib/libopencv_imgproc_pch_dephelp.a
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadPool.cpp.o
-[ 14%] Built target opencv_imgproc_pch_dephelp
-Scanning dependencies of target pch_Generate_opencv_test_core
-[ 14%] Generating test_precomp.hpp
-Scanning dependencies of target opencv_highgui_pch_dephelp
-Scanning dependencies of target opencv_videoio_pch_dephelp
-[ 14%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.o
-[ 14%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.o
-[ 14%] Generating test_precomp.hpp.gch/opencv_test_core_RELEASE.gch
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadPosix.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadSemaphore.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadSemaphorePosix.cpp.o
-[ 14%] Linking CXX static library ../../lib/libopencv_videoio_pch_dephelp.a
-[ 14%] Linking CXX static library ../../lib/libopencv_highgui_pch_dephelp.a
-[ 14%] Built target opencv_videoio_pch_dephelp
-[ 14%] Built target opencv_highgui_pch_dephelp
-[ 14%] Generating opencv_ts_pch_dephelp.cxx
-Scanning dependencies of target pch_Generate_opencv_perf_core
-[ 14%] Generating perf_precomp.hpp
-[ 14%] Generating perf_precomp.hpp.gch/opencv_perf_core_RELEASE.gch
-Scanning dependencies of target opencv_ts_pch_dephelp
-[ 14%] Building CXX object modules/ts/CMakeFiles/opencv_ts_pch_dephelp.dir/opencv_ts_pch_dephelp.cxx.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmThread/IlmThreadSemaphorePosixCompat.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Imath/ImathColorAlgo.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Imath/ImathFun.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Imath/ImathMatrixAlgo.cpp.o
-[ 14%] Built target pch_Generate_opencv_test_core
-[ 14%] Linking CXX static library ../../lib/libopencv_ts_pch_dephelp.a
-[ 14%] Built target pch_Generate_opencv_perf_core
-[ 14%] Generating opencv_flann_pch_dephelp.cxx
-[ 14%] Generating opencv_test_flann_pch_dephelp.cxx
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Imath/ImathRandom.cpp.o
-[ 14%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Imath/ImathVec.cpp.o
-Scanning dependencies of target opencv_test_flann_pch_dephelp
-Scanning dependencies of target opencv_flann_pch_dephelp
-[ 16%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfAcesFile.cpp.o
-[ 16%] Built target opencv_ts_pch_dephelp
-[ 16%] Building CXX object modules/flann/CMakeFiles/opencv_flann_pch_dephelp.dir/opencv_flann_pch_dephelp.cxx.o
-[ 16%] Building CXX object modules/flann/CMakeFiles/opencv_test_flann_pch_dephelp.dir/opencv_test_flann_pch_dephelp.cxx.o
-[ 16%] Generating opencv_test_imgproc_pch_dephelp.cxx
-Scanning dependencies of target opencv_test_imgproc_pch_dephelp
-[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc_pch_dephelp.dir/opencv_test_imgproc_pch_dephelp.cxx.o
-[ 16%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfAttribute.cpp.o
-[ 16%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfB44Compressor.cpp.o
-[ 16%] Linking CXX static library ../../lib/libopencv_test_imgproc_pch_dephelp.a
-[ 16%] Linking CXX static library ../../lib/libopencv_flann_pch_dephelp.a
-[ 16%] Linking CXX static library ../../lib/libopencv_test_flann_pch_dephelp.a
-[ 16%] Built target opencv_test_imgproc_pch_dephelp
-[ 16%] Built target opencv_test_flann_pch_dephelp
-[ 16%] Generating opencv_perf_imgproc_pch_dephelp.cxx
-[ 16%] Built target opencv_flann_pch_dephelp
-[ 16%] Generating opencv_ml_pch_dephelp.cxx
-Scanning dependencies of target opencv_perf_imgproc_pch_dephelp
-[ 16%] Building CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc_pch_dephelp.dir/opencv_perf_imgproc_pch_dephelp.cxx.o
-[ 16%] Generating opencv_test_ml_pch_dephelp.cxx
-Scanning dependencies of target opencv_ml_pch_dephelp
-[ 16%] Building CXX object modules/ml/CMakeFiles/opencv_ml_pch_dephelp.dir/opencv_ml_pch_dephelp.cxx.o
-[ 16%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfBoxAttribute.cpp.o
-Scanning dependencies of target opencv_test_ml_pch_dephelp
-[ 17%] Building CXX object modules/ml/CMakeFiles/opencv_test_ml_pch_dephelp.dir/opencv_test_ml_pch_dephelp.cxx.o
-[ 17%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfCRgbaFile.cpp.o
-[ 17%] Linking CXX static library ../../lib/libopencv_ml_pch_dephelp.a
-[ 17%] Built target opencv_ml_pch_dephelp
-[ 17%] Generating opencv_photo_pch_dephelp.cxx
-[ 17%] Linking CXX static library ../../lib/libopencv_perf_imgproc_pch_dephelp.a
-[ 17%] Built target opencv_perf_imgproc_pch_dephelp
-Scanning dependencies of target opencv_photo_pch_dephelp
-[ 17%] Building CXX object modules/photo/CMakeFiles/opencv_photo_pch_dephelp.dir/opencv_photo_pch_dephelp.cxx.o
-[ 17%] Generating opencv_test_photo_pch_dephelp.cxx
-[ 17%] Linking CXX static library ../../lib/libopencv_test_ml_pch_dephelp.a
-[ 17%] Built target opencv_test_ml_pch_dephelp
-Scanning dependencies of target opencv_test_photo_pch_dephelp
-[ 17%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo_pch_dephelp.dir/opencv_test_photo_pch_dephelp.cxx.o
-[ 18%] Generating opencv_perf_photo_pch_dephelp.cxx
-Scanning dependencies of target opencv_perf_photo_pch_dephelp
-[ 18%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfChannelList.cpp.o
-[ 18%] Linking CXX static library ../../lib/libopencv_photo_pch_dephelp.a
-[ 18%] Built target opencv_photo_pch_dephelp
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfChannelListAttribute.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfChromaticities.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfChromaticitiesAttribute.cpp.o
-[ 18%] Linking CXX static library ../../lib/libopencv_test_photo_pch_dephelp.a
-[ 18%] Built target opencv_test_photo_pch_dephelp
-[ 18%] Linking CXX static library ../../lib/libopencv_perf_photo_pch_dephelp.a
-[ 18%] Generating opencv_video_pch_dephelp.cxx
-[ 18%] Built target opencv_perf_photo_pch_dephelp
-[ 18%] Generating opencv_test_video_pch_dephelp.cxx
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfCompressionAttribute.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfCompressor.cpp.o
-Scanning dependencies of target opencv_test_video_pch_dephelp
-Scanning dependencies of target opencv_video_pch_dephelp
-[ 18%] Building CXX object modules/video/CMakeFiles/opencv_video_pch_dephelp.dir/opencv_video_pch_dephelp.cxx.o
-[ 18%] Building CXX object modules/video/CMakeFiles/opencv_test_video_pch_dephelp.dir/opencv_test_video_pch_dephelp.cxx.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfConvert.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfDoubleAttribute.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfEnvmap.cpp.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfEnvmapAttribute.cpp.o
-[ 18%] Linking CXX static library ../../lib/libopencv_video_pch_dephelp.a
-[ 18%] Built target opencv_video_pch_dephelp
-[ 18%] Generating opencv_perf_video_pch_dephelp.cxx
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfFloatAttribute.cpp.o
-Scanning dependencies of target opencv_perf_video_pch_dephelp
-[ 18%] Building CXX object modules/video/CMakeFiles/opencv_perf_video_pch_dephelp.dir/opencv_perf_video_pch_dephelp.cxx.o
-[ 18%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfFrameBuffer.cpp.o
-[ 18%] Linking CXX static library ../../lib/libopencv_test_video_pch_dephelp.a
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfFramesPerSecond.cpp.o
-[ 19%] Built target opencv_test_video_pch_dephelp
-[ 19%] Generating opencv_test_imgcodecs_pch_dephelp.cxx
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfHeader.cpp.o
-Scanning dependencies of target opencv_test_imgcodecs_pch_dephelp
-[ 19%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfHuf.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_perf_video_pch_dephelp.a
-[ 19%] Built target opencv_perf_video_pch_dephelp
-[ 19%] Generating opencv_perf_imgcodecs_pch_dephelp.cxx
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfIO.cpp.o
-Scanning dependencies of target opencv_perf_imgcodecs_pch_dephelp
-[ 19%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfInputFile.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_test_imgcodecs_pch_dephelp.a
-[ 19%] Built target opencv_test_imgcodecs_pch_dephelp
-[ 19%] Generating opencv_test_shape_pch_dephelp.cxx
-Scanning dependencies of target opencv_test_shape_pch_dephelp
-[ 19%] Building CXX object modules/shape/CMakeFiles/opencv_test_shape_pch_dephelp.dir/opencv_test_shape_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfIntAttribute.cpp.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfKeyCode.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_perf_imgcodecs_pch_dephelp.a
-[ 19%] Built target opencv_perf_imgcodecs_pch_dephelp
-[ 19%] Generating opencv_shape_pch_dephelp.cxx
-Scanning dependencies of target opencv_shape_pch_dephelp
-[ 19%] Building CXX object modules/shape/CMakeFiles/opencv_shape_pch_dephelp.dir/opencv_shape_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfKeyCodeAttribute.cpp.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfLineOrderAttribute.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_test_shape_pch_dephelp.a
-[ 19%] Built target opencv_test_shape_pch_dephelp
-[ 19%] Generating opencv_test_videoio_pch_dephelp.cxx
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfLut.cpp.o
-Scanning dependencies of target opencv_test_videoio_pch_dephelp
-[ 19%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfMatrixAttribute.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_shape_pch_dephelp.a
-[ 19%] Built target opencv_shape_pch_dephelp
-[ 19%] Generating opencv_perf_videoio_pch_dephelp.cxx
-Scanning dependencies of target opencv_perf_videoio_pch_dephelp
-[ 19%] Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfMisc.cpp.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfMultiView.cpp.o
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfOpaqueAttribute.cpp.o
-[ 19%] Linking CXX static library ../../lib/libopencv_test_videoio_pch_dephelp.a
-[ 19%] Built target opencv_test_videoio_pch_dephelp
-[ 19%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfOutputFile.cpp.o
-[ 20%] Generating opencv_test_highgui_pch_dephelp.cxx
-Scanning dependencies of target opencv_test_highgui_pch_dephelp
-[ 20%] Building CXX object modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.o
-[ 20%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfPizCompressor.cpp.o
-[ 20%] Linking CXX static library ../../lib/libopencv_perf_videoio_pch_dephelp.a
-[ 20%] Built target opencv_perf_videoio_pch_dephelp
-[ 20%] Generating opencv_objdetect_pch_dephelp.cxx
-Scanning dependencies of target opencv_objdetect_pch_dephelp
-[ 20%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect_pch_dephelp.dir/opencv_objdetect_pch_dephelp.cxx.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfPreviewImage.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfPreviewImageAttribute.cpp.o
-[ 22%] Linking CXX static library ../../lib/libopencv_objdetect_pch_dephelp.a
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfPxr24Compressor.cpp.o
-[ 22%] Built target opencv_objdetect_pch_dephelp
-[ 22%] Linking CXX static library ../../lib/libopencv_test_highgui_pch_dephelp.a
-[ 22%] Generating opencv_perf_objdetect_pch_dephelp.cxx
-[ 22%] Built target opencv_test_highgui_pch_dephelp
-[ 22%] Generating opencv_test_objdetect_pch_dephelp.cxx
-Scanning dependencies of target opencv_perf_objdetect_pch_dephelp
-[ 22%] Building CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect_pch_dephelp.dir/opencv_perf_objdetect_pch_dephelp.cxx.o
-Scanning dependencies of target opencv_test_objdetect_pch_dephelp
-[ 22%] Building CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect_pch_dephelp.dir/opencv_test_objdetect_pch_dephelp.cxx.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfRational.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfRationalAttribute.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfRgbaFile.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfRgbaYca.cpp.o
-[ 22%] Linking CXX static library ../../lib/libopencv_perf_objdetect_pch_dephelp.a
-[ 22%] Built target opencv_perf_objdetect_pch_dephelp
-[ 22%] Linking CXX static library ../../lib/libopencv_test_objdetect_pch_dephelp.a
-[ 22%] Generating opencv_superres_pch_dephelp.cxx
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfRleCompressor.cpp.o
-[ 22%] Built target opencv_test_objdetect_pch_dephelp
-[ 22%] Generating opencv_test_superres_pch_dephelp.cxx
-Scanning dependencies of target opencv_superres_pch_dephelp
-[ 22%] Building CXX object modules/superres/CMakeFiles/opencv_superres_pch_dephelp.dir/opencv_superres_pch_dephelp.cxx.o
-Scanning dependencies of target opencv_test_superres_pch_dephelp
-[ 22%] Building CXX object modules/superres/CMakeFiles/opencv_test_superres_pch_dephelp.dir/opencv_test_superres_pch_dephelp.cxx.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfScanLineInputFile.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfStandardAttributes.cpp.o
-[ 22%] Linking CXX static library ../../lib/libopencv_superres_pch_dephelp.a
-[ 22%] Built target opencv_superres_pch_dephelp
-[ 22%] Generating opencv_perf_superres_pch_dephelp.cxx
-Scanning dependencies of target opencv_perf_superres_pch_dephelp
-[ 22%] Building CXX object modules/superres/CMakeFiles/opencv_perf_superres_pch_dephelp.dir/opencv_perf_superres_pch_dephelp.cxx.o
-[ 22%] Linking CXX static library ../../lib/libopencv_test_superres_pch_dephelp.a
-[ 22%] Built target opencv_test_superres_pch_dephelp
-[ 22%] Generating opencv_features2d_pch_dephelp.cxx
-Scanning dependencies of target opencv_features2d_pch_dephelp
-[ 22%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d_pch_dephelp.dir/opencv_features2d_pch_dephelp.cxx.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfStdIO.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfStringAttribute.cpp.o
-[ 22%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfStringVectorAttribute.cpp.o
-[ 22%] Linking CXX static library ../../lib/libopencv_features2d_pch_dephelp.a
-[ 22%] Built target opencv_features2d_pch_dephelp
-[ 23%] Linking CXX static library ../../lib/libopencv_perf_superres_pch_dephelp.a
-[ 23%] Generating opencv_perf_features2d_pch_dephelp.cxx
-[ 23%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTestFile.cpp.o
-[ 23%] Built target opencv_perf_superres_pch_dephelp
-Scanning dependencies of target pch_Generate_opencv_features2d
-[ 23%] Generating precomp.hpp
-Scanning dependencies of target opencv_perf_features2d_pch_dephelp
-[ 23%] Generating precomp.hpp.gch/opencv_features2d_RELEASE.gch
-[ 23%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d_pch_dephelp.dir/opencv_perf_features2d_pch_dephelp.cxx.o
-[ 23%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfThreading.cpp.o
-[ 23%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTileDescriptionAttribute.cpp.o
-[ 23%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTileOffsets.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTiledInputFile.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTiledMisc.cpp.o
-[ 24%] Linking CXX static library ../../lib/libopencv_perf_features2d_pch_dephelp.a
-[ 24%] Built target opencv_perf_features2d_pch_dephelp
-[ 24%] Generating opencv_test_features2d_pch_dephelp.cxx
-Scanning dependencies of target opencv_test_features2d_pch_dephelp
-[ 24%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d_pch_dephelp.dir/opencv_test_features2d_pch_dephelp.cxx.o
-[ 24%] Built target pch_Generate_opencv_features2d
-Scanning dependencies of target pch_Generate_opencv_perf_features2d
-[ 24%] Generating perf_precomp.hpp
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTiledOutputFile.cpp.o
-[ 24%] Generating perf_precomp.hpp.gch/opencv_perf_features2d_RELEASE.gch
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTiledRgbaFile.cpp.o
-[ 24%] Linking CXX static library ../../lib/libopencv_test_features2d_pch_dephelp.a
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTimeCode.cpp.o
-[ 24%] Built target opencv_test_features2d_pch_dephelp
-[ 24%] Generating opencv_calib3d_pch_dephelp.cxx
-Scanning dependencies of target opencv_calib3d_pch_dephelp
-[ 24%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d_pch_dephelp.dir/opencv_calib3d_pch_dephelp.cxx.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfTimeCodeAttribute.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfVecAttribute.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfVersion.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfWav.cpp.o
-[ 24%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/IlmImf/ImfZipCompressor.cpp.o
-[ 24%] Generating opencv_test_calib3d_pch_dephelp.cxx
-[ 24%] Linking CXX static library ../../lib/libopencv_calib3d_pch_dephelp.a
-[ 24%] Built target pch_Generate_opencv_perf_features2d
-[ 24%] Built target opencv_calib3d_pch_dephelp
-[ 24%] Generating opencv_perf_calib3d_pch_dephelp.cxx
-[ 24%] Generating opencv_test_stitching_pch_dephelp.cxx
-Scanning dependencies of target opencv_test_calib3d_pch_dephelp
-[ 24%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d_pch_dephelp.dir/opencv_test_calib3d_pch_dephelp.cxx.o
-Scanning dependencies of target opencv_perf_calib3d_pch_dephelp
-[ 24%] Linking CXX static library ../lib/libIlmImf.a
-[ 24%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d_pch_dephelp.dir/opencv_perf_calib3d_pch_dephelp.cxx.o
-Scanning dependencies of target opencv_test_stitching_pch_dephelp
-[ 24%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.o
 [ 24%] Built target IlmImf
-[ 24%] Generating opencv_stitching_pch_dephelp.cxx
+[ 24%] Building CXX object modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.o
+Scanning dependencies of target opencv_ts_pch_dephelp
+[ 24%] Building CXX object modules/ts/CMakeFiles/opencv_ts_pch_dephelp.dir/opencv_ts_pch_dephelp.cxx.o
+[ 24%] Linking CXX static library ../../lib/libopencv_core_pch_dephelp.a
+[ 24%] Built target opencv_core_pch_dephelp
+Scanning dependencies of target opencv_imgproc_pch_dephelp
+[ 24%] Building CXX object modules/imgproc/CMakeFiles/opencv_imgproc_pch_dephelp.dir/opencv_imgproc_pch_dephelp.cxx.o
+[ 24%] Linking CXX static library ../../lib/libopencv_perf_core_pch_dephelp.a
+[ 24%] Built target opencv_perf_core_pch_dephelp
+[ 24%] Linking CXX static library ../../lib/libopencv_ts_pch_dephelp.a
+[ 24%] Linking CXX static library ../../lib/libopencv_test_core_pch_dephelp.a
+Scanning dependencies of target opencv_imgcodecs_pch_dephelp
+[ 24%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.o
+[ 24%] Built target opencv_test_core_pch_dephelp
+[ 24%] Built target opencv_ts_pch_dephelp
+Scanning dependencies of target opencv_videoio_pch_dephelp
+Scanning dependencies of target opencv_highgui_pch_dephelp
+[ 24%] Building CXX object modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.o
+[ 25%] Building CXX object modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.o
+[ 25%] Linking CXX static library ../../lib/libopencv_imgproc_pch_dephelp.a
+[ 25%] Built target opencv_imgproc_pch_dephelp
+[ 25%] Generating test_precomp.hpp.gch/opencv_test_core_RELEASE.gch
+[ 25%] Linking CXX static library ../../lib/libopencv_imgcodecs_pch_dephelp.a
+[ 25%] Built target opencv_imgcodecs_pch_dephelp
+[ 25%] Generating perf_precomp.hpp.gch/opencv_perf_core_RELEASE.gch
+[ 25%] Linking CXX static library ../../lib/libopencv_highgui_pch_dephelp.a
+[ 25%] Linking CXX static library ../../lib/libopencv_videoio_pch_dephelp.a
+[ 25%] Built target opencv_highgui_pch_dephelp
+[ 25%] Built target opencv_videoio_pch_dephelp
+Scanning dependencies of target opencv_flann_pch_dephelp
+Scanning dependencies of target opencv_test_flann_pch_dephelp
+[ 25%] Building CXX object modules/flann/CMakeFiles/opencv_flann_pch_dephelp.dir/opencv_flann_pch_dephelp.cxx.o
+[ 26%] Building CXX object modules/flann/CMakeFiles/opencv_test_flann_pch_dephelp.dir/opencv_test_flann_pch_dephelp.cxx.o
+[ 26%] Linking CXX static library ../../lib/libopencv_flann_pch_dephelp.a
+[ 26%] Built target opencv_flann_pch_dephelp
+Scanning dependencies of target opencv_test_imgproc_pch_dephelp
+[ 26%] Building CXX object modules/imgproc/CMakeFiles/opencv_test_imgproc_pch_dephelp.dir/opencv_test_imgproc_pch_dephelp.cxx.o
+[ 26%] Linking CXX static library ../../lib/libopencv_test_flann_pch_dephelp.a
+[ 26%] Built target opencv_test_flann_pch_dephelp
+Scanning dependencies of target opencv_perf_imgproc_pch_dephelp
+[ 26%] Building CXX object modules/imgproc/CMakeFiles/opencv_perf_imgproc_pch_dephelp.dir/opencv_perf_imgproc_pch_dephelp.cxx.o
+[ 26%] Built target pch_Generate_opencv_test_core
+[ 26%] Built target pch_Generate_opencv_perf_core
+[ 26%] Linking CXX static library ../../lib/libopencv_test_imgproc_pch_dephelp.a
+Scanning dependencies of target opencv_ml_pch_dephelp
+Scanning dependencies of target opencv_test_ml_pch_dephelp
+[ 26%] Built target opencv_test_imgproc_pch_dephelp
+[ 26%] Building CXX object modules/ml/CMakeFiles/opencv_ml_pch_dephelp.dir/opencv_ml_pch_dephelp.cxx.o
+[ 26%] Building CXX object modules/ml/CMakeFiles/opencv_test_ml_pch_dephelp.dir/opencv_test_ml_pch_dephelp.cxx.o
+Scanning dependencies of target opencv_photo_pch_dephelp
+[ 26%] Building CXX object modules/photo/CMakeFiles/opencv_photo_pch_dephelp.dir/opencv_photo_pch_dephelp.cxx.o
+[ 26%] Linking CXX static library ../../lib/libopencv_perf_imgproc_pch_dephelp.a
+[ 26%] Built target opencv_perf_imgproc_pch_dephelp
+Scanning dependencies of target opencv_test_photo_pch_dephelp
+[ 26%] Building CXX object modules/photo/CMakeFiles/opencv_test_photo_pch_dephelp.dir/opencv_test_photo_pch_dephelp.cxx.o
+[ 26%] Linking CXX static library ../../lib/libopencv_photo_pch_dephelp.a
+[ 28%] Linking CXX static library ../../lib/libopencv_ml_pch_dephelp.a
+[ 28%] Built target opencv_ml_pch_dephelp
+[ 28%] Built target opencv_photo_pch_dephelp
+Scanning dependencies of target opencv_video_pch_dephelp
+Scanning dependencies of target opencv_perf_photo_pch_dephelp
+[ 28%] Building CXX object modules/video/CMakeFiles/opencv_video_pch_dephelp.dir/opencv_video_pch_dephelp.cxx.o
+[ 28%] Building CXX object modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_test_ml_pch_dephelp.a
+[ 28%] Built target opencv_test_ml_pch_dephelp
+Scanning dependencies of target opencv_test_video_pch_dephelp
+[ 28%] Building CXX object modules/video/CMakeFiles/opencv_test_video_pch_dephelp.dir/opencv_test_video_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_test_photo_pch_dephelp.a
+[ 28%] Built target opencv_test_photo_pch_dephelp
+Scanning dependencies of target opencv_perf_video_pch_dephelp
+[ 28%] Building CXX object modules/video/CMakeFiles/opencv_perf_video_pch_dephelp.dir/opencv_perf_video_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_video_pch_dephelp.a
+[ 28%] Built target opencv_video_pch_dephelp
+Scanning dependencies of target opencv_test_imgcodecs_pch_dephelp
+[ 28%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_perf_photo_pch_dephelp.a
+[ 28%] Built target opencv_perf_photo_pch_dephelp
+Scanning dependencies of target opencv_perf_imgcodecs_pch_dephelp
+[ 28%] Building CXX object modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_test_video_pch_dephelp.a
+[ 28%] Built target opencv_test_video_pch_dephelp
+Scanning dependencies of target opencv_test_shape_pch_dephelp
+[ 28%] Building CXX object modules/shape/CMakeFiles/opencv_test_shape_pch_dephelp.dir/opencv_test_shape_pch_dephelp.cxx.o
+[ 28%] Linking CXX static library ../../lib/libopencv_perf_video_pch_dephelp.a
+[ 28%] Built target opencv_perf_video_pch_dephelp
+Scanning dependencies of target opencv_shape_pch_dephelp
+[ 28%] Building CXX object modules/shape/CMakeFiles/opencv_shape_pch_dephelp.dir/opencv_shape_pch_dephelp.cxx.o
+[ 29%] Linking CXX static library ../../lib/libopencv_test_imgcodecs_pch_dephelp.a
+[ 29%] Built target opencv_test_imgcodecs_pch_dephelp
+Scanning dependencies of target opencv_test_videoio_pch_dephelp
+[ 29%] Building CXX object modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.o
+[ 29%] Linking CXX static library ../../lib/libopencv_perf_imgcodecs_pch_dephelp.a
+[ 29%] Built target opencv_perf_imgcodecs_pch_dephelp
+Scanning dependencies of target opencv_perf_videoio_pch_dephelp
+[ 30%] Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_test_shape_pch_dephelp.a
+[ 30%] Linking CXX static library ../../lib/libopencv_shape_pch_dephelp.a
+[ 30%] Built target opencv_test_shape_pch_dephelp
+[ 30%] Built target opencv_shape_pch_dephelp
+Scanning dependencies of target opencv_test_highgui_pch_dephelp
+[ 30%] Building CXX object modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.o
+Scanning dependencies of target opencv_objdetect_pch_dephelp
+[ 30%] Building CXX object modules/objdetect/CMakeFiles/opencv_objdetect_pch_dephelp.dir/opencv_objdetect_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_test_videoio_pch_dephelp.a
+[ 30%] Built target opencv_test_videoio_pch_dephelp
+Scanning dependencies of target opencv_perf_objdetect_pch_dephelp
+[ 30%] Building CXX object modules/objdetect/CMakeFiles/opencv_perf_objdetect_pch_dephelp.dir/opencv_perf_objdetect_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_objdetect_pch_dephelp.a
+[ 30%] Linking CXX static library ../../lib/libopencv_perf_videoio_pch_dephelp.a
+[ 30%] Built target opencv_objdetect_pch_dephelp
+[ 30%] Built target opencv_perf_videoio_pch_dephelp
+Scanning dependencies of target opencv_superres_pch_dephelp
+Scanning dependencies of target opencv_test_objdetect_pch_dephelp
+[ 30%] Building CXX object modules/superres/CMakeFiles/opencv_superres_pch_dephelp.dir/opencv_superres_pch_dephelp.cxx.o
+[ 30%] Building CXX object modules/objdetect/CMakeFiles/opencv_test_objdetect_pch_dephelp.dir/opencv_test_objdetect_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_test_highgui_pch_dephelp.a
+[ 30%] Built target opencv_test_highgui_pch_dephelp
+Scanning dependencies of target opencv_test_superres_pch_dephelp
+[ 30%] Building CXX object modules/superres/CMakeFiles/opencv_test_superres_pch_dephelp.dir/opencv_test_superres_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_superres_pch_dephelp.a
+[ 30%] Built target opencv_superres_pch_dephelp
+[ 30%] Linking CXX static library ../../lib/libopencv_perf_objdetect_pch_dephelp.a
+Scanning dependencies of target opencv_perf_superres_pch_dephelp
+[ 30%] Building CXX object modules/superres/CMakeFiles/opencv_perf_superres_pch_dephelp.dir/opencv_perf_superres_pch_dephelp.cxx.o
+[ 30%] Built target opencv_perf_objdetect_pch_dephelp
+Scanning dependencies of target opencv_features2d_pch_dephelp
+[ 30%] Building CXX object modules/features2d/CMakeFiles/opencv_features2d_pch_dephelp.dir/opencv_features2d_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_test_objdetect_pch_dephelp.a
+[ 30%] Built target opencv_test_objdetect_pch_dephelp
+Scanning dependencies of target opencv_perf_features2d_pch_dephelp
+[ 30%] Building CXX object modules/features2d/CMakeFiles/opencv_perf_features2d_pch_dephelp.dir/opencv_perf_features2d_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_test_superres_pch_dephelp.a
+[ 30%] Built target opencv_test_superres_pch_dephelp
+Scanning dependencies of target opencv_test_features2d_pch_dephelp
+[ 30%] Building CXX object modules/features2d/CMakeFiles/opencv_test_features2d_pch_dephelp.dir/opencv_test_features2d_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_features2d_pch_dephelp.a
+[ 30%] Built target opencv_features2d_pch_dephelp
+Scanning dependencies of target opencv_test_calib3d_pch_dephelp
+[ 30%] Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d_pch_dephelp.dir/opencv_test_calib3d_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_perf_superres_pch_dephelp.a
+[ 30%] Built target opencv_perf_superres_pch_dephelp
+Scanning dependencies of target opencv_calib3d_pch_dephelp
+[ 30%] Building CXX object modules/calib3d/CMakeFiles/opencv_calib3d_pch_dephelp.dir/opencv_calib3d_pch_dephelp.cxx.o
+[ 30%] Linking CXX static library ../../lib/libopencv_perf_features2d_pch_dephelp.a
+[ 32%] Built target opencv_perf_features2d_pch_dephelp
+Scanning dependencies of target opencv_perf_calib3d_pch_dephelp
+[ 32%] Building CXX object modules/calib3d/CMakeFiles/opencv_perf_calib3d_pch_dephelp.dir/opencv_perf_calib3d_pch_dephelp.cxx.o
+[ 32%] Linking CXX static library ../../lib/libopencv_test_features2d_pch_dephelp.a
+[ 32%] Built target opencv_test_features2d_pch_dephelp
 Scanning dependencies of target opencv_stitching_pch_dephelp
-[ 24%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.o
-[ 24%] Linking CXX static library ../../lib/libopencv_test_calib3d_pch_dephelp.a
-[ 24%] Built target opencv_test_calib3d_pch_dephelp
-[ 24%] Generating opencv_perf_stitching_pch_dephelp.cxx
-[ 24%] Linking CXX static library ../../lib/libopencv_perf_calib3d_pch_dephelp.a
-[ 24%] Built target opencv_perf_calib3d_pch_dephelp
+[ 32%] Building CXX object modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.o
+[ 32%] Linking CXX static library ../../lib/libopencv_calib3d_pch_dephelp.a
+[ 33%] Linking CXX static library ../../lib/libopencv_test_calib3d_pch_dephelp.a
+[ 33%] Built target opencv_calib3d_pch_dephelp
+[ 33%] Built target opencv_test_calib3d_pch_dephelp
+Scanning dependencies of target opencv_test_stitching_pch_dephelp
 Scanning dependencies of target opencv_perf_stitching_pch_dephelp
-[ 24%] Generating opencv_videostab_pch_dephelp.cxx
-[ 24%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.o
+[ 33%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.o
+[ 33%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.o
+[ 33%] Linking CXX static library ../../lib/libopencv_perf_calib3d_pch_dephelp.a
+[ 33%] Built target opencv_perf_calib3d_pch_dephelp
 Scanning dependencies of target opencv_videostab_pch_dephelp
-[ 24%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab_pch_dephelp.dir/opencv_videostab_pch_dephelp.cxx.o
-[ 24%] Linking CXX static library ../../lib/libopencv_stitching_pch_dephelp.a
-[ 24%] Built target opencv_stitching_pch_dephelp
-Scanning dependencies of target pch_Generate_opencv_hal
-[ 24%] Generating precomp.hpp
-[ 24%] Generating precomp.hpp.gch/opencv_hal_RELEASE.gch
-[ 24%] Linking CXX static library ../../lib/libopencv_test_stitching_pch_dephelp.a
-[ 24%] Built target opencv_test_stitching_pch_dephelp
-Scanning dependencies of target pch_Generate_opencv_core
-[ 24%] Generating precomp.hpp
-[ 24%] Generating precomp.hpp.gch/opencv_core_RELEASE.gch
+[ 33%] Building CXX object modules/videostab/CMakeFiles/opencv_videostab_pch_dephelp.dir/opencv_videostab_pch_dephelp.cxx.o
+[ 33%] Linking CXX static library ../../lib/libopencv_stitching_pch_dephelp.a
+[ 33%] Built target opencv_stitching_pch_dephelp
+[ 33%] Built target pch_Generate_opencv_hal
+[ 33%] Generating precomp.hpp.gch/opencv_core_RELEASE.gch
 modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build.make:62: recipe for target 'modules/core/precomp.hpp.gch/opencv_core_RELEASE.gch' failed
-CMakeFiles/Makefile2:1583: recipe for target 'modules/core/CMakeFiles/pch_Generate_opencv_core.dir/all' failed
+CMakeFiles/Makefile2:1580: recipe for target 'modules/core/CMakeFiles/pch_Generate_opencv_core.dir/all' failed
+[ 33%] Linking CXX static library ../../lib/libopencv_videostab_pch_dephelp.a
+[ 33%] Linking CXX static library ../../lib/libopencv_perf_stitching_pch_dephelp.a
+[ 34%] Linking CXX static library ../../lib/libopencv_test_stitching_pch_dephelp.a
+[ 34%] Built target opencv_videostab_pch_dephelp
+[ 35%] Built target opencv_perf_stitching_pch_dephelp
+[ 35%] Built target opencv_test_stitching_pch_dephelp
+Makefile:149: recipe for target 'all' failed
+make install...
+[  3%] Built target libtiff
+[  7%] Built target libjpeg
+[ 14%] Built target libwebp
+[ 17%] Built target libjasper
+[ 24%] Built target IlmImf
+[ 24%] Built target opencv_hal_pch_dephelp
 [ 24%] Built target pch_Generate_opencv_hal
-[ 24%] Linking CXX static library ../../lib/libopencv_videostab_pch_dephelp.a
-[ 24%] Built target opencv_videostab_pch_dephelp
-[ 24%] Linking CXX static library ../../lib/libopencv_perf_stitching_pch_dephelp.a
-[ 24%] Built target opencv_perf_stitching_pch_dephelp
-Makefile:149: recipe for target 'all' failed
-[  2%] Built target libtiff
-[  6%] Built target libjpeg
-[ 11%] Built target libwebp
-[ 13%] Built target libjasper
-[ 18%] Built target IlmImf
-[ 18%] Built target opencv_hal_pch_dephelp
-[ 18%] Built target pch_Generate_opencv_hal
-Scanning dependencies of target opencv_hal
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/arithm.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/color.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/filter.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/mathfuncs.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/matrix.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/resize.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/stat.cpp.o
-[ 18%] Building CXX object modules/hal/CMakeFiles/opencv_hal.dir/src/warp.cpp.o
-[ 18%] Linking CXX static library ../../lib/libopencv_hal.a
-[ 18%] Built target opencv_hal
-[ 18%] Built target opencv_core_pch_dephelp
-[ 18%] Built target opencv_test_core_pch_dephelp
-[ 18%] Generating precomp.hpp.gch/opencv_core_RELEASE.gch
+[ 25%] Built target opencv_hal
+[ 25%] Built target opencv_core_pch_dephelp
+[ 25%] Built target opencv_test_core_pch_dephelp
+[ 25%] Generating precomp.hpp.gch/opencv_core_RELEASE.gch
 modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build.make:62: recipe for target 'modules/core/precomp.hpp.gch/opencv_core_RELEASE.gch' failed
-CMakeFiles/Makefile2:1583: recipe for target 'modules/core/CMakeFiles/pch_Generate_opencv_core.dir/all' failed
+CMakeFiles/Makefile2:1580: recipe for target 'modules/core/CMakeFiles/pch_Generate_opencv_core.dir/all' failed
 Makefile:149: recipe for target 'all' failed
+ldconfig...
 Install successfully...

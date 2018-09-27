@@ -32,13 +32,13 @@ sudo apt-get --yes --force-yes install python3-dev python3-numpy
 
 echo "Download OpenCV..."
 cd ~
-wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.0.0.zip
-unzip opencv.zip
-wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.0.0.zip
-unzip opencv_contrib.zip
+#wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.0.0.zip
+#unzip opencv.zip
+#wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.0.0.zip
+#unzip opencv_contrib.zip
 
 echo "Setup Python..."
-wget https://bootstrap.pypa.io/get-pip.py
+#wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 
 echo "Install OpenCV..."

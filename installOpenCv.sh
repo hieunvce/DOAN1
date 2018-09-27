@@ -11,20 +11,31 @@ sudo apt-get --yes --force-yes update
 sudo apt-get --yes --force-yes upgrade
 
 echo "Install developer tools..."
-sudo apt-get --yes --force-yes install build-essential git cmake pkg-config
+sudo apt-get --yes --force-yes install build-essential git cmake cmake-curses-gui pkg-config
 
 echo "Install image I/O packages..."
-sudo apt-get --yes --force-yes install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+sudo apt-get --yes --force-yes install \
+	libjpeg-dev \
+	libtiff5-dev \
+	libjasper-dev \
+	libpng-dev \
+	libeigen3-dev
 
 echo "Install video I/O packages..."
-sudo apt-get --yes --force-yes install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+sudo apt-get --yes --force-yes install \
+	libavcodec-dev \
+	libavformat-dev \
+	libswscale-dev \
+	libv4l-dev \
+	v41-utils
 sudo apt-get --yes --force-yes install libxvidcore-dev libx264-dev
 
 echo "Install GTK development library..."
 sudo apt-get --yes --force-yes install libgtk2.0-dev
-
+sudo modprobe bcm2835-v412
 echo "Install optimize dependencies..."
 sudo apt-get --yes --force-yes install libatlas-base-dev gfortran
+sudo apt-get --yes --force-yes install libgtkglext1 libgtkglext1-dev 
 
 echo "Install Python..."
 sudo apt-get --yes --force-yes install python python3
@@ -33,27 +44,31 @@ sudo apt-get --yes --force-yes install python3-dev python3-numpy
 
 echo "Download OpenCV..."
 cd ~
-#wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.0.0.zip
-#unzip opencv.zip
-#wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.0.0.zip
-#unzip opencv_contrib.zip
-
-echo "Setup Python..."
-#wget https://bootstrap.pypa.io/get-pip.py
-sudo python get-pip.py
+wget -O opencv_source.zip https://github.com/opencv/opencv/archive/3.4.0.zip
+unzip opencv_source.zip
+wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.0.zip
+unzip opencv_contrib.zip
 
 echo "Install OpenCV..."
-cd ~/opencv-3.0.0/
+cd ~/opencv-3.4.0/
 mkdir build
 cd build
 echo "cmake..."
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
-	-D ENABLE_PRECOMILED_HEADERS=OFF \
 	-D CMAKE_INSTALL_PREFIX=/usr/local \
-	-D INSTALL_C_EXAMPLES=OFF \
+	-D BUILD_WITH_DEBUG_INFO=OFF \
+	-D BUILD_DOCS=OFF \
+	-D BUILD_EXAMPLES=OFF \
+	-D BUILD_TESTS=OFF \
+	-D BUILD_opencv_ts=OFF \
+	-D BUILD_PERF_TESTS=OFF \
+	-D INSTALL_C_EXAMPLES=ON \
 	-D INSTALL_PYTHON_EXAMPLES=OFF \
-	-D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.0.0/modules \
-	-D BUILD_EXAMPLES=OFF ..
+	-D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.4.0/modules \
+	-D ENABLE_NEON=0N \
+	-D WITH_LIBV4L=ON \
+	-D WITH_OPENGL=ON ../
+
 echo "make..."
 make -j4
 echo "make install..."

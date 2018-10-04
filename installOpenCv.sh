@@ -43,14 +43,11 @@ sudo apt-get --yes --force-yes install python2.7-dev python2-numpy
 sudo apt-get --yes --force-yes install python3-dev python3-numpy
 
 echo "Download OpenCV..."
-cd ~
-wget -O opencv_source.zip https://github.com/opencv/opencv/archive/3.4.0.zip
 unzip opencv_source.zip
-wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/3.4.0.zip
 unzip opencv_contrib.zip
 
 echo "Install OpenCV..."
-cd ~/opencv-3.4.0/
+cd ./opencv-3.4.0/
 mkdir build
 cd build
 echo "cmake..."
